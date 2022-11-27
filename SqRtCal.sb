@@ -1,0 +1,6 @@
+TextWindow.WriteLine("Welcome to SqRtCal!")
+TextWindow.Write("Enter your desired number to compute:")
+X=TextWindow.ReadNumber()
+Y=Math.SquareRoot(X)
+TextWindow.Write("The answer is:")
+TextWindow.WriteLine(Y)
